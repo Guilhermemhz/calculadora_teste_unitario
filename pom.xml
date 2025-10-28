@@ -44,6 +44,9 @@
                             <goal>single</goal>
                         </goals>
                         <configuration>
+                            <excludes>
+                                <exclude>**/principal/*Principal.*</exclude>
+                            </excludes>
                             <archive>
                                 <manifest>
                                     <mainClass>
